@@ -56,7 +56,7 @@ html{
     width: calc(100% - 20px);
     left: 50%;
     transform: translateX(-50%);
-    z-index: 0;
+    z-index: -1;
 }
 .bg-circles div{
     position: absolute;
@@ -123,56 +123,6 @@ html{
 .loader inner:nth-child(7) {animation-delay: 1s;}
 .loader inner:nth-child(7) {animation-delay: 0.5s;}
 
-/*------------------------
-Navbar Styling
--------------------------*/
-.navbar{
-    position: fixed;
-    width: 100%;
-    margin-bottom: 590px;
-    /*background: red;*/
-    font-family: 'Ubuntu', sans-serif;
-    display: inline-block;
-}
-.navbar .logo a{
-    color: #ffffff;
-    font-size: 35px;
-    font-weight: 600;
-}
-.navbar .max-width{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.navbar .logo a{
-    color: #ffffff;
-    font-size: 35px;
-    font-weight: 600;
-}
-.navbar .menu li{
-    list-style: none;
-    display: inline-block;
-}
-.navbar .menu li a{
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: 500;
-    margin-left: 25px;
-}
-.navbar .menu li a:hover{
-    text-shadow: 3px 3px var(--purple-light);
-}
-.navbar .menu li a:active{
-    color: var(--purple-dark);
-}
-
-/*---------Menu Btn----------*/
-.menu-btn{
-    color:#ffffff;
-    font-size: 23px;
-    display: none;
-}
-
 /* -----------------------
 Color Variable
 ------------------------ */
@@ -219,7 +169,7 @@ body{
     line-height: 1.5;
     overflow-x: hidden;
     -webkit-top-highlight-color: transparent;
-    padding: 5vh 15px;
+	padding: 5vh 15px;
 }
 body::before{
     content: '';
@@ -231,6 +181,7 @@ body::before{
     background-color: var(--green-yellow);
     z-index: -1;
     opacity:0.12;
+
 }
 a{
     text-decoration: none;
@@ -340,7 +291,8 @@ Home Section
 ----------------------*/
 .home-section{
     display: flex; /*home div height full with width: container*/
-    padding: 200px 0;
+    padding: 150px 0;
+	border-top: none;
 }
 /*home title name div*/
 /*.home-text{
@@ -422,7 +374,7 @@ section .title::after{
 section{
     background-color: var(--white-alpha-25);
     border:1px solid var(--white-alpha-40);
-    min-height: 90vh;
+    min-height: 95vh;
     border-radius: 0;
     backdrop-filter: var(--backdrop-filter-blur);
     padding: 100px 0;
@@ -430,10 +382,70 @@ section{
 footer{
     background-color: var(--white-alpha-25);
     border:1px solid var(--white-alpha-40);
-    min-height: 5vh;
     border-radius: 0;
     backdrop-filter: var(--backdrop-filter-blur);
 }
+
+
+
+/*------------------------
+Navbar Styling
+-------------------------*/
+.nav-section{
+	min-height:8vh;
+		border-bottom: none;
+		position:relative;
+		padding:40px 0;
+}
+.navbar{
+    position: absolute;
+    margin-bottom: 0px;
+	width:100%;
+    /*background: red;*/
+    font-family: 'Ubuntu', sans-serif;
+    display: inline-block;
+}
+.navbar .logo a{
+    color: #ffffff;
+    font-size: 35 px;
+    font-weight: 600;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+	margin-left: 25px;
+}
+.navbar .menu li a:hover{
+    text-shadow: 3px 3px var(--purple-light);
+}
+.navbar .menu li a:active{
+    color: var(--purple-dark);
+}
+
+/*---------Menu Btn----------*/
+.menu-btn{
+    color:#ffffff;
+    font-size: 30px;
+    display: none;
+    position: absolute;
+	right: 5%;
+}
+
 
 
 /* ------------------------
@@ -847,6 +859,9 @@ Responsive Media Query Start
         height: 300px;
         width: 300px;
     }
+	.about-section .about-content .right .text{
+		font-size: 20px;
+	}
 } 
 @media(max-width:991px){
     .home-section{
@@ -859,7 +874,6 @@ Responsive Media Query Start
     .menu-btn{
         display: block;
         z-index: 999;
-        padding-bottom: 20vh;
         text-shadow: 1px 0.5px var(--gray);
     }    
     .menu-btn.active{
@@ -875,7 +889,6 @@ Responsive Media Query Start
         top: 0;
         background-image: linear-gradient(to bottom right, var(--purple-light), var(--wheat));
         text-align: center;
-        padding-top: 90px;
     }
     .navbar .menu.active{
         left: 0;
@@ -923,6 +936,9 @@ Responsive Media Query Start
     .home-text .btn.hidden{
         z-index: -1;
     }
+	 .navbar .menu{
+			padding: 25% 0;
+	}
     .navbar .menu li a::before{
         content: '';
         position: absolute;
@@ -967,6 +983,12 @@ Responsive Media Query Start
         width: 100%;
         margin-bottom: 35px;
     }
+	.about-section .about-content .right .text{
+		font-size: 18px;
+	}
+	.education-section{
+		font-size: 18px;
+	}
 }
 
 @media(max-width:767px){
@@ -984,7 +1006,6 @@ Responsive Media Query Start
     .menu-btn{
         display: block;
         z-index: 999;
-        padding-bottom: 16vh;
         text-shadow: 1px 0.5px var(--gray);
     }    
     .services-section .service-content .card{
@@ -1021,9 +1042,6 @@ Responsive Media Query Start
     }
 }
 @media(max-width:401px){
-    .menu-btn{
-        padding-bottom: 16vh;
-    }  
     .about-section .about-content .right .text{
         font-size: 18px;
     }
@@ -1035,9 +1053,6 @@ Responsive Media Query Start
     }
 }
 @media(max-width:377px){
-    .menu-btn{
-        padding-bottom: 20vh;
-    }  
     section .title{
         font-size: 32px;
     }
