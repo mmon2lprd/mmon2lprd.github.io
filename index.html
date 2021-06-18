@@ -11,6 +11,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
     <body>
         <!-- Background Circle-->
@@ -33,30 +34,31 @@
         <!-- End Background Circle-->
         <!-- Main -->
         <div class="main hidden">
-            <div class="scroll-up-btn">
+        		<div class="scroll-up-btn">
                 <a href="#home-section"><i class="fas fa-angle-up"></i></a>
             </div>
-            <!--Nav Bar-->
-            <section class="nav-section">
-                <nav class="navbar">
-                    <div class="max-width">
-                        <div class="logo"><a href="#"></a> </div>
-                        <ul class="menu">
-                            <li><a href="#about-section">About me</a></li>
-                            <li><a href="#education-section">Education</a></li>
-                            <li><a href="#services-section">Services</a></li>
-                            <li><a href="#portfolio-section">Portfolio</a></li>
-                            <li><a href="#contact-section">Contact</a></li>
-                        </ul>
-                        <div class="menu-btn">
-                            <i class="fas fa-bars"></i>
-                        </div>
+<section class="nav-section">
+	            <!--Nav Bar-->
+            <nav class="navbar">
+                <div class="max-width">
+                    <div class="logo"><a href="#"></a> </div>
+                    <ul class="menu">
+                        <li><a href="#about-section">About me</a></li>
+                        <li><a href="#education-section">Education</a></li>
+                        <li><a href="#services-section">Services</a></li>
+                        <li><a href="#portfolio-section">Portfolio</a></li>
+                        <li><a href="#contact-section">Contact</a></li>
+                    </ul>
+                    <div class="menu-btn">
+                        <i class="fas fa-bars"></i>
                     </div>
-                </nav>
-                <!--End Nav Bar-->
-            </section>
+                </div>
+            </nav>
+            <!--End Nav Bar-->
+</section>
             <!-- Home Section-->
             <section class="home-section align-item-center" id="home-section">
+
                 <div class="container">
                     <div class="row align-item-center">
                         <div class="home-text">
@@ -164,7 +166,10 @@
             <!--Services Section-->
             <section class="services-section" id="services-section">
                 <div class="max-width">
-                    <h2 class="title">My services</h2>
+                    <h2 class="title" data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="0"
+     data-aos-offset="0">My services</h2>
                     <div class="service-content">
                         <div class="card">
                             <div class="box">
@@ -308,17 +313,16 @@
                                         <input type="text" placeholder="Name*" id="name" required>
                                     </div>
                                     <div class="field email">
-                                        <input type="email" placeholder="Email*" id="email" required>
-                                    </div>
+                                        <input type="email" placeholder="Email*" id="email" required>                                    </div>
                                 </div>
                                 <div class="field">
                                     <input type="text" placeholder="Subject*" id="subject" required>
                                 </div>
                                 <div class="field textarea">
-                                    <textarea name="" cols="30" rows="10" placeholder="Message" id="describe"></textarea>
+                                    <textarea name="" cols="30" rows="10" placeholder="Message ..." id="describe"></textarea>
                                 </div>
                                 <div class="button">
-                                    <button type="submit"><i class="fab fa-telegram"></i>Send Message</button>
+                                    <button type="submit"><i class="fab fa-telegram"></i><p>Send Message</p></button>
                                 </div>
                             </form>
                         </div>
@@ -335,6 +339,8 @@
             <!--End Footer Section-->
         </div>
         <!-- End Main-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
     <script src="js_temp/script.js"></script>     
     </body>
 </html>

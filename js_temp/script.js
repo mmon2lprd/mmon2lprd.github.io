@@ -1,1 +1,103 @@
-var _0x48ea=['data-target','subject','.navbar\x20.menu','open','send','</i>\x20%0A\x20-\x20<b>Descript:</b>\x20<i>','.education-section','target','add','\x20is\x20contact\x20now:%0A\x20-\x20<b>Name:</b>\x20<i>','toggleClass','owlCarousel','getElementById','28697mEksPn','https://api.telegram.org/bot','scroll','&parse_mode=html','addClass','email','log','Student.','</i>\x20%0A\x20-\x20<b>Subject:</b>\x20<i>','active','POST','animate','remove','.home-text\x20.btn','classList','</i>','60868AHuTjJ','36296VtBKhM','removeClass','addEventListener','253685LShOdU','53390gYCjXC','scrollY','querySelector','Hi!\x20Mon.\x20','getAttribute','</i>\x20%0A\x20-\x20<b>E-mail:</b>\x20<i>','describe','click','Baby\x20data\x20Analyst.','contains','.menu-btn','409645ATUNpn','&text=','11JeOXYH','hidden','IT\x20Support.','1743315853:AAFM0TNxnYEbzfDmIS6bRlXysAThcVnyKYU','.scroll-up-btn','value','form','.typing-1','ready','350219ClVzEY','Message\x20Successfully\x20Sended!','show','tab-item','.typing-2','preventDefault'];var _0x538e6d=_0x90b3;(function(_0x40f2a1,_0x4af0d8){var _0x5d993a=_0x90b3;while(!![]){try{var _0x4ce94e=parseInt(_0x5d993a(0x1d4))+-parseInt(_0x5d993a(0x1d0))+-parseInt(_0x5d993a(0x1ac))+parseInt(_0x5d993a(0x1bf))*parseInt(_0x5d993a(0x1e1))+parseInt(_0x5d993a(0x1cf))+-parseInt(_0x5d993a(0x1d3))+parseInt(_0x5d993a(0x1df));if(_0x4ce94e===_0x4af0d8)break;else _0x40f2a1['push'](_0x40f2a1['shift']());}catch(_0x2ece53){_0x40f2a1['push'](_0x40f2a1['shift']());}}}(_0x48ea,0x30aca),$(document)[_0x538e6d(0x1ab)](function(){var _0x47126a=_0x538e6d;$(_0x47126a(0x1de))[_0x47126a(0x1db)](function(){var _0x326636=_0x47126a;$(_0x326636(0x1b4))[_0x326636(0x1bc)](_0x326636(0x1c8)),$(_0x326636(0x1cc))[_0x326636(0x1bc)]('hidden'),$(_0x326636(0x1de))[_0x326636(0x1bc)](_0x326636(0x1c8)),$(window)[_0x326636(0x1c1)](function(){var _0xcea3fa=_0x326636;this[_0xcea3fa(0x1d5)]>0x1f4&&($(_0xcea3fa(0x1b4))['removeClass']('active'),$(_0xcea3fa(0x1cc))[_0xcea3fa(0x1d1)](_0xcea3fa(0x1e2)),$('.menu-btn')['removeClass']('active'));;});}),$(window)[_0x47126a(0x1c1)](function(){var _0x3b694c=_0x47126a;this['scrollY']>0x1f4?$('.scroll-up-btn')[_0x3b694c(0x1c3)](_0x3b694c(0x1ae)):$('.scroll-up-btn')[_0x3b694c(0x1d1)](_0x3b694c(0x1ae));}),$(_0x47126a(0x1a7))[_0x47126a(0x1db)](function(){var _0x428897=_0x47126a;$('html')[_0x428897(0x1ca)]({'scrollTop':0x0});});var _0x501734=new Typed(_0x47126a(0x1aa),{'strings':[_0x47126a(0x1c6),_0x47126a(0x1dc),_0x47126a(0x1e3)],'typeSpeed':0x64,'backSpped':0x3c,'loop':!![]}),_0x501734=new Typed(_0x47126a(0x1b0),{'strings':[_0x47126a(0x1c6),'Baby\x20Data\x20Analyst.','Makeup\x20Artist.'],'typeSpeed':0x64,'backSpped':0x3c,'loop':!![]});$('.carousel')[_0x47126a(0x1bd)]({'margin':0x14,'loop':!![],'autoplayTimeOut':0x7d0,'autoplayHoverPause':!![],'responsive':{0x0:{'items':0x1,'nav':![]},0x258:{'items':0x2,'nav':![]},0x3e8:{'items':0x3,'nav':![]}}});}));const tabsContainer=document[_0x538e6d(0x1d6)]('.education-tabs'),educationSection=document['querySelector'](_0x538e6d(0x1b8));tabsContainer[_0x538e6d(0x1d2)]('click',_0x5e6af9=>{var _0x35af24=_0x538e6d;if(_0x5e6af9[_0x35af24(0x1b9)][_0x35af24(0x1cd)][_0x35af24(0x1dd)](_0x35af24(0x1af))&&!_0x5e6af9[_0x35af24(0x1b9)][_0x35af24(0x1cd)][_0x35af24(0x1dd)](_0x35af24(0x1c8))){tabsContainer[_0x35af24(0x1d6)]('.active')[_0x35af24(0x1cd)][_0x35af24(0x1cb)](_0x35af24(0x1c8)),_0x5e6af9['target']['classList']['add'](_0x35af24(0x1c8));const _0x416f11=_0x5e6af9['target'][_0x35af24(0x1d8)](_0x35af24(0x1b2));educationSection[_0x35af24(0x1d6)]('.tab-content.active')['classList'][_0x35af24(0x1cb)]('active'),educationSection['querySelector'](_0x416f11)[_0x35af24(0x1cd)][_0x35af24(0x1ba)](_0x35af24(0x1c8));}});function _0x90b3(_0x3d52f0,_0x148cc6){_0x3d52f0=_0x3d52f0-0x1a7;var _0x48eabb=_0x48ea[_0x3d52f0];return _0x48eabb;}const form=document[_0x538e6d(0x1d6)](_0x538e6d(0x1a9));form['addEventListener']('submit',_0x37653a=>{var _0x30b524=_0x538e6d;_0x37653a[_0x30b524(0x1b1)]();var _0x30361d=document[_0x30b524(0x1be)]('name')[_0x30b524(0x1a8)],_0x40ab0e=document[_0x30b524(0x1be)](_0x30b524(0x1c4))['value'],_0x5d2ccc=document[_0x30b524(0x1be)](_0x30b524(0x1b3))[_0x30b524(0x1a8)],_0x5aacbf=document[_0x30b524(0x1be)](_0x30b524(0x1da))['value'],_0x551402=_0x30b524(0x1d7)+_0x30361d+_0x30b524(0x1bb)+_0x30361d+_0x30b524(0x1d9)+_0x40ab0e+_0x30b524(0x1c7)+_0x5d2ccc+_0x30b524(0x1b7)+_0x5aacbf+_0x30b524(0x1ce),_0x34f32d=_0x30b524(0x1e4),_0x29f67c=-0x218bb9b9,_0x1323dd=_0x30b524(0x1c0)+_0x34f32d+'/sendMessage?chat_id='+_0x29f67c+_0x30b524(0x1e0)+_0x551402+_0x30b524(0x1c2);let _0x3b633c=new XMLHttpRequest();_0x3b633c[_0x30b524(0x1b5)](_0x30b524(0x1c9),_0x1323dd,!![]),_0x3b633c[_0x30b524(0x1b6)](),console[_0x30b524(0x1c5)](_0x30b524(0x1ad));});
+/* ----------------------- Nav Bar Hidden Reponsive ---------------*/
+$(document).ready(function(){
+    // toggle menu/navbar script
+   $('.menu-btn').click(function(){
+        $('.navbar .menu').toggleClass("active");
+        $('.home-text .btn').toggleClass("hidden");
+        $('.menu-btn').toggleClass("active");
+        $(window).scroll(function(){
+            if(this.scrollY > 500){
+                $('.navbar .menu').removeClass("active");
+                $('.home-text .btn').removeClass("hidden");
+                $('.menu-btn').removeClass("active");
+            };
+       });
+    });
+    $(window).scroll(function(){
+        if(this.scrollY > 500){
+            $('.scroll-up-btn').addClass("show");
+        }else{
+            $('.scroll-up-btn').removeClass("show");
+        }
+        });
+    // slide-up script
+    $('.scroll-up-btn').click(function(){
+        $('html').animate({scrollTop: 0});
+    });
+
+    // typing animation script
+    var typed = new Typed(".typing-1",{
+        strings: ["Student.", "Baby data Analyst.", "IT Support."],
+        typeSpeed: 100,
+        backSpped: 60,
+        loop: true
+    });
+
+    // typing animation script
+    var typed = new Typed(".typing-2",{
+        strings: ["Student.", "Baby Data Analyst.", "Makeup Artist."],
+        typeSpeed: 100,
+        backSpped: 60,
+        loop: true
+    });
+
+    // owl carousel script
+    $('.carousel').owlCarousel({
+        margin: 20,
+        loop: true,
+        autoplayTimeOut: 2000,
+        autoplayHoverPause: true,
+        responsive: {
+            0:{
+                items: 1,
+                nav: false
+            },
+            600:{
+                items: 2,
+                nav: false
+            },
+            1000:{
+                items: 3,
+                nav: false
+            }
+        }
+    })
+});
+
+/*---------------------- Education Tabs ---------------------------*/
+const tabsContainer = document.querySelector(".education-tabs"),
+educationSection = document.querySelector(".education-section");
+
+tabsContainer.addEventListener("click",(e) =>{
+    if(e.target.classList.contains("tab-item") && !e.target.classList.contains("active")){
+        tabsContainer.querySelector(".active").classList.remove("active");
+        e.target.classList.add("active");
+        const target = e.target.getAttribute("data-target");
+        educationSection.querySelector(".tab-content.active").classList.remove("active");
+        educationSection.querySelector(target).classList.add("active");
+    }
+});
+
+/*--------------------------- Contact Section -----------------------*/
+const form = document.querySelector("form");
+
+form.addEventListener("submit", (e) => {
+    e.preventDefault();
+
+    var f_name = document.getElementById("name").value;
+    var f_email = document.getElementById("email").value;
+    var f_subject = document.getElementById("subject").value;
+    var f_describe = document.getElementById("describe").value;
+
+    var my_text = `Hi! Mon. ${f_name} is contact now:%0A - <b>Name:</b> <i>${f_name}</i> %0A - <b>E-mail:</b> <i>${f_email}</i> %0A - <b>Subject:</b> <i>${f_subject}</i> %0A - <b>Descript:</b> <i>${f_describe}</i>`;
+    //Note! <br> == %0A
+    var token = "1743315853:AAFM0TNxnYEbzfDmIS6bRlXysAThcVnyKYU";
+    var chat_id = -562805177;
+    var url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${my_text}&parse_mode=html`;
+    /*console.log(f_name,f_email,f_subject,f_describe)*/
+    
+    let api = new XMLHttpRequest();
+    api.open("POST", url, true);
+    api.send();
+    console.log("Message Successfully Sended!")
+})

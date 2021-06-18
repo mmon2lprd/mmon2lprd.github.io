@@ -273,7 +273,7 @@ img{
     text-align: center;
     line-height: 45px;
     color: white;
-    z-index: 1;
+    z-index: 9999;
     font-size: 30px;
     border-radius: 50%;
     cursor: pointer;
@@ -504,7 +504,6 @@ Education Section
     padding-right: 20%;
     background-color: whitesmoke;
     border-top: none;
-	border-bottom: none;
 }
 .education-tabs{
     margin-top: 0;
@@ -609,11 +608,6 @@ Education Section
 /* ------------------------
 Service Section
 ------------------------ */
-.services-section{
-	background: linear-gradient(rgba(245,245,245,1), rgba(245,245,245,0.2), var(--white-alpha-25));
-	border-top: none;
-	border-bottom: none;
-}
 .services-section .title::before{
     background: #111111;
 }
@@ -623,7 +617,8 @@ Service Section
 }
 .services-section .service-content .card{
     width: calc(33% - 20px);
-    background: var(--white-alpha-40);
+    background: #EBECF0;
+    border: 1px inset; 
     color: #111111;
     text-align: center;
     border-radius: 6px;
@@ -634,7 +629,7 @@ Service Section
 }
 .services-section .service-content .card:hover{
     background: var(--yellow);
-    border: 2px solid white;
+    border: 2px outset white;
 }
 .services-section .service-content .card .box{
     transition: all 0.3s ease;
@@ -663,9 +658,6 @@ portfolio Section
 .portfolio-section{
     font-family: 'Mitr', sans-serif;
     width: 100%;
-	background: linear-gradient(var(--white-alpha-25), rgba(245,245,245,0.2), rgba(245,245,245,1));
-	border-top: none;
-	border-bottom: none;
 }
 .portfolio-section .title::before{
     background-color: white;
@@ -733,10 +725,6 @@ portfolio Section
 /*--------------------------
 Contact Section
 ----------------------------*/
-.contact-section{
-	border-top: none;
-	border-bottom: none;
-}
 .contact-section .title::after{
     content: "get in touch";
 }
@@ -842,12 +830,11 @@ Contact Section
 Footer Section
 ---------------------------*/
 footer{
-    background: whitesmoke;
+    background: var(--white-alpha-40);
     padding: 20px 50px;
     font-size: 16px;
     font-weight: 300;
     text-align: right;
-	border-top: none;
 }
 footer span a{
     color: var(--main-color);
