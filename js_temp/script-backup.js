@@ -99,49 +99,5 @@ form.addEventListener("submit", (e) => {
     let api = new XMLHttpRequest();
     api.open("POST", url, true);
     api.send();
-    console.log("Message Sended!")
-    document.getElementById("form").reset();
-})
-
-/*-------------------------------Cert img----------------------- */
-function toggle(){
-    var blur = document.getElementById('education-section');
-    blur.classList.toggle('active')
-    var popup = document.getElementById('popup');
-    popup.classList.toggle('active')
-}
-
-let img = document.querySelector('#cert');
-let btn1 = document.querySelector('#microsoft-1');
-let btn2 = document.querySelector('#microsoft-2');
-let btn3 = document.querySelector('#google-data-analytics-1');
-let btn4 = document.querySelector('#google-data-analytics-2');
-let btn5 = document.querySelector('#google-data-analytics-3');
-let btn6 = document.querySelector('#google-data-analytics-4');
-let btn7 = document.querySelector('#google-data-analytics-5');
-let btn8 = document.querySelector('#google-data-analytics-6');
-
-btn1.addEventListener('click', () => {
-    img.src = 'cert/microsoft.png'
-})
-btn2.addEventListener('click', () => {
-    img.src = 'cert/microsoft.png'
-})
-btn3.addEventListener('click', () => {
-    img.src = 'cert/google-data-analytics-1.png'
-})
-btn4.addEventListener('click', () => {
-    img.src = 'cert/google-data-analytics-2.png'
-})
-btn5.addEventListener('click', () => {
-    img.src = 'cert/google-data-analytics-3.png'
-})
-btn6.addEventListener('click', () => {
-    img.src = 'cert/google-data-analytics-4.png'
-})
-btn7.addEventListener('click', () => {
-    img.src = 'cert/google-data-analytics-5.png'
-})
-btn8.addEventListener('click', () => {
-    img.src = 'cert/google-data-analytics-6.png'
+    console.log("Message Successfully Sended!")
 })
