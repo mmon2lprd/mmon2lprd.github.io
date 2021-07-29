@@ -717,7 +717,7 @@ portfolio Section
     padding: 25px 35px;
     text-align: center;
     transition: all 0.3 ease;
-    min-height: 58vh;
+    min-height: 30rem;
     margin-top: 0;
 }
 .portfolio-section .carousel .card:hover{
@@ -795,7 +795,7 @@ Contact Section
 .contact-section .contact-content .text{
     font-size: 20px;
     font-weight: 600;
-    margin-bottom: 0;
+    margin-bottom: 15px;
 }
 .contact-section .contact-content .left p{
     text-align: justify;
